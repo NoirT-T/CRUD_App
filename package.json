@@ -1,0 +1,50 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "dev": "cross-env NODE_ENV=development webpack",
+    "production": "webpack"
+  },
+  "author": "NoiRTvT",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/materialize-css": "^1.0.2",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.19",
+    "autoprefixer": "^8.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.5",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.4",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.2.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
